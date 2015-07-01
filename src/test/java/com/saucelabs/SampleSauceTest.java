@@ -174,7 +174,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.className("password-input")).sendKeys("WhatWhat1");
         driver.findElement(By.className("login-button")).click();
         Thread.sleep(5000);
-    } 
+    }
 
     /**
      * Closes the {@link WebDriver} session.
